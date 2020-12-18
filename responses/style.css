@@ -1,0 +1,235 @@
+/* Responses */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Barlow Condensed', sans-serif;
+	line-height: 1.4;
+	font-size: 16px;
+	max-width: 100vw;
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	min-height: 100vh;
+	min-width: 100vw;
+	background-image: url(https://www.innovwebsolutions.com/wp-content/themes/twentyseventeen/assets/images/mid2.jpg);
+}
+
+main {
+	max-width: 50em;
+	margin: 0 auto;
+	padding: 0.5em;
+}
+
+.Home main {
+	max-width: 60em;
+}
+
+h1 {
+	font-size: 140px;
+	color: #00fecb;
+	position: absolute;
+	text-align: center;
+	max-width: 50em;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h2 {
+	font-size: 60px;
+	color: #00fecb;
+	text-transform: uppercase;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+	max-width: 50em;
+	padding-bottom: 1em;
+}
+
+p {
+	font-family: 'Roboto Slab', serif;
+	color: white;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	max-width: 50em;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 14pt;
+	padding-bottom: 2em;
+}
+
+.response {
+	font-family: 'Roboto Slab', serif;
+	color: #00fecb;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	max-width: 50em;
+	font-size: 14pt;
+	padding-left: 2em;
+
+}
+
+a {
+	color: white;
+	text-decoration: underline;
+	font-size: 18pt;
+}
+
+.wrapper {
+	max-width: 1170px;
+	margin: auto;
+}
+
+.nav-area {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.nav-area li {
+	display: inline-block;
+	background-color: black;
+	padding: 3px;
+}
+
+.nav-area li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: Barlow Condensed;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.nav-area li a:hover {
+	background: #fff;
+	color: #333;
+}
+
+.welcome-text h1 {
+	color: #00fecb;
+	text-align: left;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	font-size: 200px;
+	max-width: 50em;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.button {
+	color: white;
+	padding: 0.25em 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+.button:hover {
+	background-color: #00fecb;
+	color: #333;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 100%;
+	align-content: center;
+	margin-top: 16em;
+	font-size: 24px;
+	position: relative;
+}
+
+.item {
+	padding: 1em;
+	color: white;
+	position: relative;
+}
+
+.item2 {
+	color: white;
+	position: relative;
+}
+
+@media (min-width: 60em) {
+	.grid {
+		grid-template-columns: 50% 50%;
+	}
+}
+
+
+/* Navigation */
+
+main {
+	margin-top: 3em;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 3em;
+}
+
+nav {
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	width: 50em;
+	height: 3em;
+	align-content: center;
+	line-height: 1;
+	position: absolute;
+}
+
+nav a {
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	transition: color 0.3s;
+}
+
+nav a:hover {
+	color: blue;
+}
+
+.active {
+	color: #00fecb;
+}
+
+/*responsive*/
+
+@media (max-width:600px) {
+	.wrapper {
+		width: 100%;
+	}
+
+	.nav-area {
+		float: none;
+		margin-top: 0;
+	}
+
+	.nav-area li a {
+		padding: 5px;
+		font-size: 11px;
+	}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+}
